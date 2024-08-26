@@ -30,10 +30,19 @@ curl -v --noproxy '*' 'X-OAM-AUTHN-HINT: 0' -u USERNAME:PASSWORD http://INSTANCE
 -  Post successful installation, open below url and login (if prompted)
 ```` https://INSTANCE_URL/fscmUI/redwood/SqlEditor ````
 
-# Preview
--  Editor Layout
+
+# How to connect
+-	Click on Connectivity Button, Select schema and click Connect button
+-	First time connectivity will take some time
+![image](https://github.com/user-attachments/assets/e5632ca9-9922-45be-8273-0ff8c851db05)
+
+
+#  How to execute queries
+-	Once Successfully connected
+-	Enter Query and click execution button or short cut(CTRL+ENTER)
+-	Semicolon is necessary at the end of query
 ![image](https://github.com/user-attachments/assets/d85a28e0-ccc3-42b6-9ff5-11cbcd54adef)
 
--  Connectivity Layout
-![image](https://github.com/user-attachments/assets/e5632ca9-9922-45be-8273-0ff8c851db05)
+# Incase of questions or issues
+-	Add a comment in the repository for resolution
 
