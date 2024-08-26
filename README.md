@@ -8,6 +8,13 @@ Run SQL queries on Oracle Fusion/Saas DB with this simple VBS page/app-ui
 -  Accessible like like any other fusion applciaiton page
 -  No seperate authentication required
 
+#  Limitations
+-  Only 1000 rows and 1000 columns can be fetched
+-  Query time out of 5 mins.
+
+#  Access Requirements
+-  Roles required to create and execute BI publihser reports
+
 # Installaton (Only at instance level): --> Postman can also be used
 -  Download the VX file 
 -  Execute below curl
