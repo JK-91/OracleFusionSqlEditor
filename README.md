@@ -16,15 +16,7 @@ Run SQL queries on Oracle Fusion/Saas DB with this simple VBS page/app-ui
 -  Roles required to create and execute BI publihser reports
 
 # Installaton (Only at instance level): --> Postman can also be used
--  Download the VX file 
--  Execute below curl
-```
-curl -v --noproxy '*' -X POST -L -H Content-Type: application/octet-stream -H 'X-OAM-AUTHN-HINT: 0' -u USERNAME:PASSWORD --data-binary @EXTENSION_NAME.vx http://INSTANCE_URL:PORT/fscmRestApi/vx/v2/extensions
-```
--  After installtion execute below command and find for 'SqlAppExtn', if found the installation is successful
-```
-curl -v --noproxy '*' 'X-OAM-AUTHN-HINT: 0' -u USERNAME:PASSWORD http://INSTANCE_URL:PORT/fscmRestApi/vx/v2/extensions/
-```
+-  In progress - Will be provided shortly 
 
 # Accessing the page
 -  Post successful installation, open below url and login (if prompted)
